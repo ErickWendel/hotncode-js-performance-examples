@@ -1,0 +1,72 @@
+Performance Tips
+
+- Ponto de efeito
+  - Performance de aplicações é isso
+    - Mostrar Print com Aplicação com problema de performance
+  - Virar isso
+    - Mostrar Print com Aplicação performance melhorada
+  
+- Quem sou eu
+
+Focado em analisar, reportar e algumas vezes, resolver gargalos de performance.
+
+- Minha vida como consultor
+  - Análise estática de código
+    Quando abro o código do cliente no meu editor e analisando a qualidade do código;
+    demo 
+
+  - Análise dinâmica de código
+    Quando rodo ferramentas para analisar pontos de gargalo no código em nível de execução
+    demo
+
+  - Análise de conexões externas
+    O tempo entre conectar com o banco de dados, APIs externas ou qualquer intervenção que envolva internet
+    demo
+
+  - Documentação/Report
+    A parte mais chata, documentar o que encontrei com prints e análises que fiz para chegar a uma determinada conclusão
+    Sugestões de melhoria e/ou implementação
+    Eu sempre deixo o passo a passo do que o cliente pode fazer para resolver e algumas vezes, eles me contratam para resolver um determinado assunto.
+
+    mostrar um documento modificado
+
+- Como comecei a fazer essas análises 
+
+- Meu trabalho na NodeSource 
+  - um APM focado em Node.js mais rápido que todos os players do momento
+  - Trabalhei melhorando a performance do produto que consome as métricas
+    - Adicionei uma ferramenta para visualizar a performance da aplicação ao ponto de vista de banco
+       - Não tinham visibilidade sobre o banco
+       - Muitos requests em um unico banco, topava 100% de CPU
+    
+    - 1 - Problema de concorrencia 
+    - Como você resolveria esse problema?
+    - Corrigi queries duplicadas
+    - Mas o que deu resultado foi um cache de 100ms 
+      - Como isso resolveu 
+
+- Performance de aplicações - as pessoas geralmente só se importam quando o caos está instaurado
+
+- Pequenas mudanças que fazem diferença
+  - Beetech - analisei um projeto e tinha uma lib interna de validação, troquei o método que a biblioteca validava o schema e resolvi não só o problema em uma aplicação, mas em todas as aplicações da empresa
+    - animação de dependencias
+
+- BenchMarking
+  - Mostrar a demo do curso
+
+- Memory Leaks
+  - talvez voce nem saiba que está com esse problema
+  - demo clinic
+
+- Graceful Shutdown
+
+- Modulo Cluster
+
+
+
+
+Acredite, 90% dos problemas de performance que apontei e/ou resolvi, eram bem simples de resolver tecnicamente.
+
+Bora que tem muito para ver na prática nesse módulo, mas já quero saber de você se essa aula despertou algum desejo em se especializar em performance de apps.
+
+

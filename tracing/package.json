@@ -1,0 +1,20 @@
+{
+  "name": "demo02-concat-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "client": "sleep 3 && node --trace-event-categories=v8,node --trace-event-file-pattern='client-trace.log' src/client.js",
+    "server": "node --trace-event-categories=v8,node --trace-event-file-pattern='server01-trace.log'  src/server01.js",
+    "server02": "node --trace-event-categories=v8,node --trace-event-file-pattern='server02-trace.log'  src/server02.js",
+    "start": "concurrently \"npm run server\" \"npm run server02 \" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "undici": "^5.0.0"
+  }
+}
