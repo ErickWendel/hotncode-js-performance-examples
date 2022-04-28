@@ -70,3 +70,8 @@ Acredite, 90% dos problemas de performance que apontei e/ou resolvi, eram bem si
 Bora que tem muito para ver na prática nesse módulo, mas já quero saber de você se essa aula despertou algum desejo em se especializar em performance de apps.
 
 
+
+
+https://logz.io/blog/nodejs-javascript-opentelemetry-auto-instrumentation/#exam
+
+https://github.com/Hotmart-Org/player-mpd-parser

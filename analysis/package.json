@@ -9,8 +9,7 @@
     "analyse:clinic-flame": "npx clinic flame -- node index.js",
     "analyse:clinic-bubbleprof": "npx clinic bubbleprof -- node index.js",
     "analyse:clinic-doctor": "npx clinic doctor -- node index.js",
-    "analyse:clinic-heapprofiler": "npx clinic heapprofiler -- node index.js",
-    "analyse:chrome-tracing": "node --trace-event-categories=v8,node,node.async_hooks,node.fs --trace-event-file-pattern='node-trace.log' index.js"
+    "analyse:clinic-heapprofiler": "npx clinic heapprofiler -- node index.js"
      
   },
   "keywords": [],
